@@ -1,33 +1,26 @@
-import { serveDir } from "https://deno.land/std@0.151.0/http/file_server.ts";
-import { getCookies } from "https://deno.land/std@0.74.0/http/mod.ts";
+import { Application, send } from "https://deno.land/x/oak@v12.1.0/mod.ts";
+import userRouter from "./routes/user.js";
 
-function makeId(){
-  return crypto.randomUUID();
-}
+const app = new Application();
 
-Deno.serve(async (req) => {
-  const pathname = new URL(req.url).pathname;
-  console.log(pathname);
+// ルーターを適用
+app.use(userRouter.routes());
+app.use(userRouter.allowedMethods());
 
-  if (req.method === "GET" && pathname === "/welcome-message") {
-    Response("jigインターンへようこそ！");
+app.use(async (ctx, next) => {
+  if (!ctx.request.url.pathname.startsWith("/")) {
+    next();
+    return;
   }
-  if (req.method === "GET" && pathname === "/getId"){
-    if(getCookies(req)["id"]) return new Response("id is already set");
-    return new Response(
-      "set id", {
-        status: 200,
-        headers: {
-          "set-cookie": `id=${makeId()}`
-        }
-      }
-    );
+  let filePath = ctx.request.url.pathname;
+  if(filePath === "/"){
+    filePath = "/index.html"
   }
-
-  return serveDir(req, {
-    fsRoot: "public",
-    urlRoot: "",
-    showDirListing: true,
-    enableCors: true,
+  await send(ctx, filePath, {
+    root: "./public",
   });
 });
+  
+// サーバーの起動
+console.log("Listening on http://localhost:8000");
+await app.listen({ port: 8000 });
