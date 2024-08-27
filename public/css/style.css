@@ -109,3 +109,7 @@ main img {
 #scorePanel {
   display: none;
 }
+
+#homepanel p {
+  color: #ffffff;
+}
