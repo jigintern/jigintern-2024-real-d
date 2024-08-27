@@ -134,3 +134,14 @@ main img {
 #myBest {
   font-size: 2vw;
 }
+
+#titleButton {
+  text-align: center;
+  color: #000000;
+  background-color: orange;
+  border-radius: 2vw;
+  width: 20%;
+  height: 4vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
