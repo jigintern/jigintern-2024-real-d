@@ -110,6 +110,10 @@ main img {
   display: none;
 }
 
+#homePanel p {
+  color: #ffffff;
+}
+
 #rank1 {
   font-size: 5vw;
 }
@@ -120,9 +124,4 @@ main img {
 
 #rank3 {
   font-size: 3vw;
-}
-
-#homePanel p {
-  color: #ffffff;
-  font-size: 2vw;
 }
