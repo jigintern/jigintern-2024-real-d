@@ -124,5 +124,11 @@ main img {
   width: 20%;
   height: 4vw;
   font-size: 2vw;
+}
+
+.bottom {
   margin-top: 2vw;
+
+  display: flex;
+  flex-direction: row;
 }
