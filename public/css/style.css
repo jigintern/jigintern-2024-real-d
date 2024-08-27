@@ -112,6 +112,7 @@ main img {
 
 #homePanel p {
   color: #ffffff;
+  text-decoration: underline;
 }
 
 #rank1 {
