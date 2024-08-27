@@ -58,6 +58,16 @@ main {
   font-size: 3vw;
 }
 
+#startButton {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 2vw;
+  width: 15%;
+  height: 6vw;
+  font-size: 2vw;
+}
+
 #homePanel {
   background-color: rgb(20, 20, 50);
   width: 80%;
