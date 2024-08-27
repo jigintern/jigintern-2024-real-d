@@ -111,28 +111,9 @@ main img {
 }
 
 #homePanel p {
+  font-size: 3vw;
   color: #ffffff;
   text-decoration: underline;
-}
-
-#rank1 {
-  font-size: 5vw;
-}
-
-#rank2 {
-  font-size: 4vw;
-}
-
-#rank3 {
-  font-size: 3vw;
-}
-
-#homePanel .under4 p {
-  font-size: 2vw;
-}
-
-#myBest {
-  font-size: 2vw;
 }
 
 #titleButton {
