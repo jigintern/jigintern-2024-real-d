@@ -21,7 +21,12 @@
     color: black;
     background-color: orange;
     border-radius: 3vw;
-    font-size: 1vw;
+    font-size: 2vw;
+
+    height: 3vw;
+    display: flex;
+    justify-content: flex-end;
+
 }
 
 #detailResult {
