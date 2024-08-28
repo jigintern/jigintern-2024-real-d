@@ -21,11 +21,9 @@
     color: black;
     background-color: orange;
     border-radius: 3vw;
-    font-size: 2vw;
+    font-size: 3vw;
 
-    height: 3vw;
-    display: flex;
-    justify-content: flex-end;
+    height: 5vw;
 
 }
 
@@ -42,7 +40,7 @@
     margin-right: 2vw;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 #detailScore {
