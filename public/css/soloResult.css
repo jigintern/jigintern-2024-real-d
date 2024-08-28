@@ -17,7 +17,7 @@
 }
 
 #sendRanking {
-    width: 15%;
+    width: calc(min(95vw, calc(94vh * 10 / 7)) / 10);
     height: 30%;
     position: absolute;
     right: 0;
