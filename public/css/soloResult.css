@@ -10,6 +10,7 @@
 }
 
 #detailResult {
+    font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 50);
     display: flex;
     justify-content: center;
     flex-direction: row;
