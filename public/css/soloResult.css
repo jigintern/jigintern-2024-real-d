@@ -24,9 +24,22 @@
     font-size: 1vw;
 }
 
-#detailText {
+#detailResult {
     color: white;
     font-size: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#detailText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#detailScore {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

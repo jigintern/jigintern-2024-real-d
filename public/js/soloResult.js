@@ -23,7 +23,7 @@ onload = async (event) => {
 
   //単位時間当たりのタイプ回数の表示
   const typesPerSecondResult = document.querySelector('#typesPerSecond');
-  typesPerSecondResult.innerHTML = responseObj['typesPerSecond'];
+  typesPerSecondResult.innerHTML = responseObj['typesPerSecond'].toFixed(2);
 
   //タイプした回数の表示
   const typeCountResult = document.querySelector('#typeCount');
