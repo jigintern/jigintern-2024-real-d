@@ -9,8 +9,13 @@
     flex-direction: row;
 }
 
+#sendRanking {
+    width: 60%;
+    height: 15%;
+}
+
 #detailResult {
-    font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 50);
+    font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 40);
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -20,6 +25,7 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    margin-right: calc(min(95vw, calc(94vh * 10 / 7)) / 40);
 }
 
 #detailScore {
