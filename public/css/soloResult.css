@@ -8,12 +8,12 @@
     align-items: center;
     flex-direction: row;
     position: relative;
-    width: 60%
 }
 
 #score {
     font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 10);
-    margin: auto;
+    margin-right: calc(min(95vw, calc(94vh * 10 / 7)) / 5);
+    margin-left: calc(min(95vw, calc(94vh * 10 / 7)) / 5);
 }
 
 #sendRanking {
