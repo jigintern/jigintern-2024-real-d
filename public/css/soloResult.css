@@ -4,20 +4,25 @@
 
 #resultText {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    position: relative;
+    width: 60%
 }
 
 #score {
     font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 10);
+    margin: auto;
 }
 
 #sendRanking {
-    width: 60%;
-    height: 40%;
+    width: 15%;
+    height: 30%;
     position: absolute;
     right: 0;
+    top: 0;
+    border-radius: 0;
 }
 
 #detailResult {
