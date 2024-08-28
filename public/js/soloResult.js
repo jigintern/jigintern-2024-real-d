@@ -39,3 +39,7 @@ document.querySelector('#titleButton').onclick = (event) => {
 document.querySelector('#restartButton').onclick = (event) => {
   location.href = '/solo.html';
 };
+
+document.querySelector('#rankigButton').onclick = (event) => {
+  /*ランキングが実装されてから追加します*/
+};
