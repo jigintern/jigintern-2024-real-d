@@ -1,21 +1,45 @@
 #game {
-  font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 20);
+    font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 20);
+}
+
+#resultText {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#detailResult {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#detailText {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#detailScore {
+    display: flex;
+    flex-direction: column;
 }
 
 #buttonResult {
-  display: flex;
-  justify-content: center;
-  height: 20%;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 20%;
+    width: 100%;
 }
 
 button {
-  background-color: orange;
-  color: black;
-  border-radius: calc(min(95vw, calc(94vh * 10 / 7)) / 20);
+    background-color: orange;
+    color: black;
+    border-radius: calc(min(95vw, calc(94vh * 10 / 7)) / 20);
 
-  width: 20%;
-  height: 60%;
-  margin: calc(min(95vw, calc(94vh * 10 / 7)) / 20);
-  font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 35);
+    width: 20%;
+    height: 60%;
+    margin: calc(min(95vw, calc(94vh * 10 / 7)) / 20);
+    font-size: calc(min(95vw, calc(94vh * 10 / 7)) / 35);
 }
