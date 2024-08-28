@@ -49,7 +49,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: calc(min(95vw, calc(94vh * 10 / 7)) / 70) 0px;
+  /*padding: calc(min(95vw, calc(94vh * 10 / 7)) / 70) 0px;*/
 }
 
 #gameHeader {
