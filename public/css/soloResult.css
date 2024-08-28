@@ -8,24 +8,27 @@
 
 #resultText {
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #score {
     color: white;
-    font-size: 4vw;
+    font-size: 5vw;
+    display: flex;
 }
 
-#noScore {
-    display: flex;
-    flex-direction: row;
+#sendRanking {
+    color: black;
+    background-color: orange;
+    font-size: 1vw;
 }
 
 #buttonResult {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -34,7 +37,7 @@
     color: black;
     border-radius: 3vw;
 
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 #restartButton {
