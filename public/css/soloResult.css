@@ -16,6 +16,8 @@
 #sendRanking {
     width: 60%;
     height: 40%;
+    position: absolute;
+    right: 0;
 }
 
 #detailResult {
