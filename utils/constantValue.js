@@ -1,5 +1,5 @@
 // 1ゲームの制限時間(ms)
-const TIME_LIMIT = 60 * 1000;
+const TIME_LIMIT = 30 * 1000;
 // スコアの初期値
 const INITIALIZED_SCORE = 0;
 
